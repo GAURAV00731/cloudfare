@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To My Amazing Wife 💖</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ffe0ec, #ffe6f0);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      padding: 40px;
+      max-width: 500px;
+      text-align: center;
+      animation: fadeIn 2s ease;
+    }
+
+    h1 {
+      color: #e91e63;
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .heart {
+      color: red;
+      font-size: 2rem;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>To My Beautiful Wife 💕</h1>
+    <p>You are the sunshine in my morning,<br>
+    the warmth in my heart,<br>
+    and the peace in my soul.<br><br>
+    I love you more than words can ever express.</p>
+    <div class="heart">❤️</div>
+  </div>
+</body>
+</html>
